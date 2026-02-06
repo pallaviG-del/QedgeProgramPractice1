@@ -26,7 +26,7 @@ public class AdvancedReports {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.google.com/");
 				
 		}
 		
