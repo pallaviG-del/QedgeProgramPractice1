@@ -24,7 +24,7 @@ public class AdvancedReports {
 	public void setUp() {
 		
 		driver = new FirefoxDriver();
-		driver.manage().window().maximize();
+		
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://www.google.com/");
